@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap; 
+            
+        }
+        .photo-frame{
+            height: 169px;
+            width: 300px;  
+            border: 10px solid goldenrod;
+            border-radius: 10px; 
+            margin: 5px;  
+            position: relative;
+            overflow: hidden;
+                 
+        }
+        .photo-frame .photo img{width: 100%;}
+        .photo-detail{
+            display: none;
+            position: absolute;
+            height: 165px;
+            width: 300px;
+            top: 0px;
+            overflow: hidden;
+        }
+        .photo-frame:hover .photo img{
+            transform: scale(1.5);
+            transition: transform 2s;
+            
+        }
+        .photo-frame:hover .photo-detail{
+            display: block;
+            background-color: rgb(167, 134, 51,.5);
+            
+        }
+        .photo-frame:hover .photo-detail h3{
+            color: honeydew;
+            background-color: black;
+            text-align: center;
+            
+        }
+        .photo-frame:hover .photo-detail p{
+            color: ivory;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>My Photo Album</h1>
+    <section class="photo-album">
+        
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/lion.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Lion</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error officiis totam, aliquid quis, ipsa maxime explicabo, expedita itaque architecto at facilis autem soluta eligendi tempora. Ut placeat quaerat facere nobis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/lion.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Lion</h3>
+                    <p>Qui nisi suscipit a maxime eius debitis nostrum, nihil quis, reprehenderit dolor quibusdam omnis modi adipisci ab minus sed blanditiis. Ipsa quas earum sapiente iusto consequatur iste impedit rem ea!</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/lion.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Lion</h3>
+                    <p>Mollitia perferendis enim fugiat maiores laborum temporibus libero quod dolorum alias, excepturi deserunt a delectus, sequi fuga, nam veritatis vitae nihil? Beatae, dignissimos voluptates? Iure officia ut quod adipisci accusantium.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/lion.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Lion</h3>
+                    <p>Nostrum dolore recusandae repellendus unde incidunt. Aperiam eveniet quidem numquam necessitatibus debitis laborum! Magnam facere ex accusamus numquam voluptatum a odit ullam, at dolor dolorem vel reiciendis porro nihil reprehenderit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/lion.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Lion</h3>
+                    <p>Eum temporibus odit illum recusandae amet eos tenetur, laborum nemo suscipit laboriosam, vero soluta harum debitis magni molestias deleniti eaque rerum similique. Magnam ex, perspiciatis impedit quibusdam minima illo quam.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/lion.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Lion</h3>
+                    <p>Ea esse quo sunt, quibusdam sapiente praesentium deserunt cum? Facere exercitationem rerum amet voluptatibus quaerat possimus pariatur numquam eligendi sequi adipisci labore dolor, assumenda hic nihil atque animi. Optio, iusto.</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/lion.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Lion</h3>
+                    <p>Nesciunt consequuntur in quam adipisci facilis. Voluptatum nesciunt iure consectetur inventore iusto hic. Rem alias, accusamus necessitatibus similique consectetur ab sunt maiores, ipsa iste unde saepe. Itaque magni soluta ab!</p>
+                </div>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="images/lion.jpg" alt="">
+                <div class="photo-detail">
+                    <h3>Lion</h3>
+                    <p>Ullam quod veritatis quae, animi vero cum vitae molestias, amet voluptatum numquam officia dignissimos ea quis voluptate consequuntur laudantium corrupti provident. Ut quos neque excepturi! Tenetur quae alias vero ut.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

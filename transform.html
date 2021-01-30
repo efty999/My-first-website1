@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+    <link rel="shortcut icon" href="Images/efty.jpg" type="image/x-icon">
+    <style>
+        .box{ height: 100px;width: 100px;font-weight: 800;
+        border:1px solid brown;
+        transition: all 3s ease 0s;
+        }
+        .outer{background-color: darkblue;}
+        .inner{background-color: red ;
+        transform:translateX(50px) rotate(45deg) scale(.75); }
+        .box:hover{ 
+            height: 250px;
+            width: 250px;
+            background-color: skyblue;
+
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Transform</h1>
+    <section class="box outer">
+        <div class="box inner">box-1</div>
+    </section>
+    <section class="box outer">
+        <div class="box inner">box-2</div>
+    </section>
+    <section class="box outer">
+        <div class="box inner">box-3</div>
+    </section>
+    </div>
+
+
+
+    
+</body>
+</html>
